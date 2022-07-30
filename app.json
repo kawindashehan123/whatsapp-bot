@@ -1,6 +1,6 @@
 {
-	"name": "Deploy",
-	"description": "Wa Bot.",
+	"name": "kawinda",
+	"description": "kawinda Bot.",
 	"keywords": [
 		"whatsapp",
 		"bot"
@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -46,7 +46,7 @@
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"true"
         },
         "BOT_NAME": {
             "description": "Name of AI chatbot",
